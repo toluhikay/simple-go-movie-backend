@@ -1,12 +1,15 @@
-###Movie App Backend Server
+### Movie App Backend Server
+
 This is a simple backend server for a movie app written in Go, utilizing a PostgreSQL database. Docker is used for deploying the PostgreSQL database, making it easy to set up and run the entire system, using the Chi router for handling HTTP requests.
 
-##Features
+## Features
+
 RESTful API for managing movies
 PostgreSQL database for data storage
 Dockerized PostgreSQL for easy deployment
 
-###API Endpoints
+### API Endpoints
+
 GET /
 Home route.
 
@@ -47,7 +50,8 @@ Update details of a specific movie (admin access required).
 DELETE /admin/movies/{id}
 Delete a specific movie (admin access required).
 
-##Prerequisites
+## Prerequisites
+
 Before you begin, ensure you have the following installed:
 
 Go (version 1.20)
